@@ -1,5 +1,4 @@
-"use strict";
-class App {
+export default class App {
     constructor(parentElement, tag, className = '') {
         this.element = document.createElement(tag);
         this.element.className = className;

@@ -1,4 +1,4 @@
-class App {
+export default class App {
   element: HTMLElement;
   parentElement: HTMLElement | null;
 
